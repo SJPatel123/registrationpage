@@ -1,0 +1,87 @@
+.font-catamaran {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.signup-form{
+    color: #FF512F;
+}
+
+.loading {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #d47628;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.input {
+    margin: 10px 0px;
+    border: 1px solid;
+    border-image: linear-gradient(to right, #FF512F, #F09819);
+    border-image-slice: 1;
+    border-radius: 7px;
+    padding: 5px 10px;
+    width: 250px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.checkbox {
+    margin: 10px 5px;
+    border: 1px grey solid;
+    border-radius: 5px;
+}
+
+.password {
+    margin-left: 5px;
+}
+
+.btn {
+    background-image: linear-gradient(to right, #FF512F, #F09819);
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 270px;
+    transition: 1s ease-in;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.error-message{
+    color: red;
+    display: flex;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.reg-message {
+    color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to right, #F09819, #FF512F);
+}
+
+/* .btn-signup {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+} */

@@ -2,7 +2,39 @@
   text-align: center;
 }
 
-.App-logo {
+.main{
+  position: absolute;
+  top: 45%;
+  bottom: 55%;
+  left: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+  margin-top: 10px;
+  border: 1px solid;
+  border-image: linear-gradient(to right, #FF512F, #F09819);
+  border-image-slice: 1;
+  border-radius: 7px;
+  box-shadow: 0 0 15px #FF512F;
+}
+
+.sign-up h1{
+  /* color: linear-gradient(to right, #FF512F, #F09819); */
+  color: #FF512F;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +67,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
